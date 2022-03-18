@@ -8,7 +8,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className="relative min-w-[220px] w-[310px] h-[300px] rounded-lg bg-white shadow-lg">
+      <div className="relative min-w-[220px] w-full xs:w-[310px] h-[300px] rounded-lg bg-white shadow-lg">
         <div className="h-[92px] rounded-t-lg overflow-hidden ">
           <img className="object-cover h-[92px] w-full " src={cover} />
         </div>
