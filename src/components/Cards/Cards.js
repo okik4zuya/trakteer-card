@@ -8,6 +8,7 @@ export default function Cards({ data }) {
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-4">
           {data.map((object) => (
             <Card
+              key={object.username}
               name={object.name}
               username={object.username}
               cover={object.cover}
