@@ -4,7 +4,7 @@ import Card from "./Card/Card";
 export default function Cards({ data }) {
   return (
     <>
-      <div className="grid place-items-center">
+      <div className="">
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-4">
           {data.map((object) => (
             <div className="">

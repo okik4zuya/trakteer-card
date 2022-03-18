@@ -3,12 +3,9 @@ import { data } from "./data";
 
 function App() {
   return (
-    <div className="w-screen min-h-screen">
-      <div className="md:w-[1000px] w-screen  mx-auto rounded-xl my-10 pt-10">
-        <div className="text-center font-bold text-2xl">Trakteer Card</div>
-        <div className=" mx-auto min-h-[400px] md:p-4 mt-10 ">
-          <Cards data={data} />
-        </div>
+    <div className="w-screen min-h-screen grid place-items-center">
+      <div className="md:w-[1000px] w-screen   my-10 pt-10">
+        <Cards data={data} />
       </div>
     </div>
   );

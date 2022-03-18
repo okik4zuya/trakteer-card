@@ -16,18 +16,18 @@ export default function Konten(props) {
 
   return (
     <>
-      <div className="flex flex-wrap  ml-[16px] break-words">
-        <div className=" mr-3 font-montserrat text-[14px] leading-[17.5px] font-semibold break-words">
+      <div className="flex flex-wrap gap-2 break-words">
+        <div className="font-montserrat text-[14px] leading-[17.5px] font-semibold break-words">
           {name}
         </div>
         <div className="text-gray-500 font-montserrat text-[12px] leading-[15px] font-normal break-words">
           @{username}
         </div>
       </div>
-      <div className="relative mt-2  mx-[16px] font-montserrat text-[12px] leading-[15px] font-normal">
+      <div className="relative mt-2 font-montserrat text-[12px] leading-[15px] font-normal">
         {description}
       </div>
-      <div className="flex mt-4 relative ml-[16px] mr-[31px] ">
+      <div className="flex mt-4 relative  mr-[31px] ">
         <div className="font-montserrat text-[12px]  leading-[15px] ">
           <span className="font-black ">{folNumber}</span>
           <span className="font-semibold "> Followers</span>

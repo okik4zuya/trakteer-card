@@ -20,7 +20,7 @@ export default function Card(props) {
         </div>
         <FollowButton />
         <Menu />
-        <div className="mt-[55px]">
+        <div className="mt-[55px] ml-[16px] mr-[32px]">
           <Konten props={props} />
         </div>
         <div className="mt-[20px] mb-[10px]">
