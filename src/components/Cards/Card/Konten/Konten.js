@@ -4,8 +4,6 @@ export default function Konten(props) {
   const { name, username, description, followers, content } = props.props;
   const [folNumber, setFolNumber] = useState();
 
-  console.log(props);
-
   useEffect(() => {
     if (followers < 1000) {
       setFolNumber(followers);

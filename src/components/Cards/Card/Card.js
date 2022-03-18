@@ -5,7 +5,6 @@ import Sosmed from "./Sosmed/Sosmed";
 
 export default function Card(props) {
   const { cover, profilPic } = props;
-  console.log(cover);
 
   return (
     <>
