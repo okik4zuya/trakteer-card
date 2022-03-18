@@ -5,7 +5,7 @@ export default function Cards({ data }) {
   return (
     <>
       <div className="grid place-items-center">
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-x-4 gap-y-4">
           {data.map((object) => (
             <Card
               name={object.name}
