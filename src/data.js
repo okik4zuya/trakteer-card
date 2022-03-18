@@ -53,8 +53,8 @@ export const data = [
     },
   },
   {
-    name: "Iron Man",
-    username: "ironman",
+    name: "Iron Man Iron Man Iron Man Iron Man Iron Man",
+    username: "ironman ironman ironman ironman ironman",
     cover:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwDghGtjmAm0fyIqOzD_M_AWjEp87g9LPnng&usqp=CAU",
     profilPic:

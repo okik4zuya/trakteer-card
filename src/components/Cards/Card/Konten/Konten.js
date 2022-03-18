@@ -16,11 +16,11 @@ export default function Konten(props) {
 
   return (
     <>
-      <div className="flex relative  ml-[16px]">
-        <div className=" mr-3 font-montserrat text-[14px] leading-[17.5px] font-semibold">
+      <div className="flex flex-wrap  ml-[16px] break-words">
+        <div className=" mr-3 font-montserrat text-[14px] leading-[17.5px] font-semibold break-words">
           {name}
         </div>
-        <div className="text-gray-500 font-montserrat text-[12px] leading-[15px] font-normal">
+        <div className="text-gray-500 font-montserrat text-[12px] leading-[15px] font-normal break-words">
           @{username}
         </div>
       </div>
