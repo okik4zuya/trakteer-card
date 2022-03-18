@@ -5,7 +5,7 @@ export const data = [
     cover: "https://wallpaperaccess.com/full/427393.jpg",
     profilPic: "https://wallpaperaccess.com/full/427393.jpg",
     description:
-      "I'm a happy duck. I'm looking for Uncle Gober. Can you help me to find him?",
+      "I'm a happy duck. I'm looking for Uncle Gober. Can you help me to find him? I'm a happy duck. I'm looking for Uncle Gober. Can you help me to find him? ",
     followers: "1300",
     content: "Drawing",
     social: {
@@ -59,7 +59,8 @@ export const data = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwDghGtjmAm0fyIqOzD_M_AWjEp87g9LPnng&usqp=CAU",
     profilPic:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcid9mVg2uMaTd3hOBcHgAb1GehSaTu36ldA&usqp=CAU",
-    description: "Finally I can rest in peace!!!",
+    description:
+      "Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!! Finally I can rest in peace!!!",
     followers: "13000",
     content: "Technology",
     social: {

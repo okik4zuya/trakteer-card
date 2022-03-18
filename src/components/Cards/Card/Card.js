@@ -8,7 +8,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className="relative min-w-[220px] w-full xs:w-[310px] h-[300px] rounded-lg bg-white shadow-lg">
+      <div className="relative  min-w-[220px] w-[95vw] xs:w-[310px] min-h-[260px] pb-2 rounded-lg bg-white shadow-lg">
         <div className="h-[92px] rounded-t-lg overflow-hidden ">
           <img className="object-cover h-[92px] w-full " src={cover} />
         </div>
@@ -20,10 +20,10 @@ export default function Card(props) {
         </div>
         <FollowButton />
         <Menu />
-        <div className="relative top-[55px] ">
+        <div className="mt-[55px]">
           <Konten props={props} />
         </div>
-        <div className="relative top-[75px] ">
+        <div className="mt-[20px] mb-[10px]">
           <Sosmed props={props} />
         </div>
       </div>
