@@ -5,9 +5,11 @@ function App() {
   console.log(data);
   return (
     <div className="w-screen min-h-screen">
-      <div className="text-center font-bold text-2xl mt-20">Trakteer Card</div>
-      <div className="w-screen mx-auto min-h-[400px] bg-yellow-200 p-4 mt-10 ">
-        <Cards data={data} />
+      <div className="md:w-[1000px] sm:w-screen bg-gray-100 mx-auto rounded-xl my-10 pt-10">
+        <div className="text-center font-bold text-2xl">Trakteer Card</div>
+        <div className=" mx-auto min-h-[400px] p-4 mt-10 ">
+          <Cards data={data} />
+        </div>
       </div>
     </div>
   );

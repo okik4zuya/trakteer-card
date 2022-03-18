@@ -6,8 +6,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkIcon from "@mui/icons-material/Link";
 
-export default function Sosmed({ props }) {
-  const { facebook, twitter, instagram, youtube, hyperlink } = props;
+export default function Sosmed(props) {
+  const { facebook, twitter, instagram, youtube, hyperlink } = props.props;
 
   return (
     <>

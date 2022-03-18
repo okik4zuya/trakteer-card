@@ -3,8 +3,9 @@ import Konten from "./Konten/Konten";
 import Menu from "./Menu/Menu";
 import Sosmed from "./Sosmed/Sosmed";
 
-export default function Card({ data }) {
-  const { cover, profilPic } = data;
+export default function Card(props) {
+  const { cover, profilPic } = props;
+  console.log(cover);
 
   return (
     <>
@@ -21,10 +22,10 @@ export default function Card({ data }) {
         <FollowButton />
         <Menu />
         <div className="relative top-[55px] ">
-          <Konten data={data} />
+          <Konten props={props} />
         </div>
         <div className="relative top-[75px] ">
-          <Sosmed props={data.social} />
+          <Sosmed props={props} />
         </div>
       </div>
     </>

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-export default function Konten({ data }) {
-  const { name, username, description, followers, content } = data;
+export default function Konten(props) {
+  const { name, username, description, followers, content } = props.props;
   const [folNumber, setFolNumber] = useState();
+
+  console.log(props);
 
   useEffect(() => {
     if (followers < 1000) {
@@ -13,14 +15,15 @@ export default function Konten({ data }) {
       setFolNumber(followers / 1000000 + "m");
     }
   }, []);
+
   return (
     <>
       <div className="flex relative  ml-[16px]">
         <div className=" mr-3 font-montserrat text-[14px] leading-[17.5px] font-semibold">
-          {name}{" "}
+          {name}
         </div>
         <div className="text-gray-500 font-montserrat text-[12px] leading-[15px] font-normal">
-          @{username}{" "}
+          @{username}
         </div>
       </div>
       <div className="relative mt-2  mx-[16px] font-montserrat text-[12px] leading-[15px] font-normal">
@@ -34,7 +37,7 @@ export default function Konten({ data }) {
         <div className="relative w-[20px]">
           <div className="rounded-full w-[4px] h-[4px] bg-gray-300 absolute top-1/2 left-1/2"></div>
         </div>
-        <div className="font-semibold font-montserrat text-[12px]  leading-[15px]">
+        <div className="font-semibold font-montserrat text-[12px] leading-[15px]">
           {content}
         </div>
       </div>
